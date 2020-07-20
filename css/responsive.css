@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+	background-color: #08B2E3;
+	font-family: 'Open Sans', sans-serif;
+	margin:2 ;
+}
+.encabezado{  /*#08B2E3*/
+	background-color: white;
+
+	width: auto;
+}
+
+div.encabezado{
+	border-radius: 10px;
+}
+
+h1{
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: #EE6352;
+	font-weight: bold;
+	font-size: 2em;
+	text-shadow: 1px 1px 0px black;
+
+}
+
+.esmi{
+	
+	color: #4EBE74;
+	font-weight: bold;
+	
+
+}
+
+.marco{
+	position: relative;
+	margin: 10px;
+	padding-bottom:  60px;
+	background-color: #efe9f4;
+	border-radius: 80px;
+
+}
+
+.descripmarco{
+	left: 20px;
+	bottom: 0;
+	z-index: 1;
+	position: absolute;
+	font-size: 30px;
+	background-color: none;
+}
+
+.descripmarco span{
+	font-weight: bold;
+}
+
+
+
+.imagenes{
+	position: relative;
+}
+.uno{
+	border-radius: 50px;
+		position: relative;
+	}
+
+.unotext{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 5em;
+font-family: sans-serif;
+color: black;
+
+}
+#unoname{color: black;
+	font-size: 2em;
+	top: 256px;
+	right: 16px;
+}
+
+.dos{
+	position: relative;
+
+	border-radius: 70px;
+}
+.dostext{
+		position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 5em;
+font-family: sans-serif;
+color: black;
+}
+#dosname{color: black;
+	font-size: 2em;
+	top: 256px;
+	right: 16px;
+}
+
+
+.images{
+	height: auto;
+	max-width: 100%
+}
+
+.contacto{
+	position: relative;
+	background-color: none;
+	width: 150px;
+	height: 100px;
+	position: fixed;
+	z-index: 1;
+	top: none;
+	right:0;
+	bottom: 0;
+	text-align:left;
+							/*border: double rgba(0,0,0,.7) 1px;
+ 							border-radius: 10px;  */
+	}
+
+.wsp{
+	font-size: 24px;
+	font-weight: bold;
+	background-color: white;
+	color: black;                 /*484D6D*/
+}
+
+.wsp img{
+	position: relative;
+		width: 100px;
+	height: 100px;
+	left: 25px;
+	right: 25px;
+
+	
+}
+
+.textu{
+position: absolute;
+}
